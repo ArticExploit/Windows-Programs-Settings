@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VBAudioVoicemeeterSettings>
 <VoiceMeeterDeviceConfiguration>
-	<OptionDev mme='2048' wdm='2048' ks='2048' asio='1024' srasio='1' msA1='0.00' msA2='0.00' msA3='0.00' msA4='0.00' msA5='0.00' />
+	<OptionDev mme='1024' wdm='512' ks='512' asio='1024' srasio='1' msA1='0.00' msA2='0.00' msA3='0.00' msA4='0.00' msA5='0.00' />
 	<ExternalFXsend send1ch1='0' send1ch2='0' send2ch1='0' send2ch2='0' />
 	<ExternalFXreturn ret1ch1='0' ret1ch2='0' ret2ch1='0' ret2ch2='0' />
-	<InputDev index='1' type='1' name="Microphone (3- RODE NT-USB)" />
+	<InputDev index='1' type='4' name="Microphone (3- RODE NT-USB)" />
 	<InputDev index='2' type='4' name="Headset Microphone (Oculus Virtual Audio Device)" />
-	<InputDev index='3' name="-" />
-	<InputDev index='4' name="-" />
+	<InputDev index='3' type='4' name="CABLE Output (VB-Audio Virtual Cable)" />
+	<InputDev index='4' type='4' name="Line (USB AUDIO  CODEC)" />
 	<InputDev index='5' name="-" />
-	<OutputDev index='1' type='8' name="FiiO Q1 " />
-	<OutputDev index='2' type='4' name="Digital Audio (S/PDIF) (High Definition Audio Device)" />
+	<OutputDev index='1' type='4' name="DAC-AMP (2- FiiO Q1)" />
+	<OutputDev index='2' type='4' name="Monitor Speakers (High Definition Audio Device)" />
 	<OutputDev index='3' type='4' name="Headphones (Jelly Bean Thingy Stereo)" />
 	<OutputDev index='4' name="-" pOut1='0' pOut2='0' pOut3='0' pOut4='0' pOut5='0' pOut6='0' pOut7='0' pOut8='0'  />
 	<OutputDev index='5' name="-" pOut1='0' pOut2='0' pOut3='0' pOut4='0' pOut5='0' pOut6='0' pOut7='0' pOut8='0'  />
@@ -19,10 +19,10 @@
 	<MIDIDevOut index='1' name="-" />
 </VoiceMeeterDeviceConfiguration>
 <VoiceMeeterParameters>
-	<LabelStrip1></LabelStrip1>
-	<LabelStrip2></LabelStrip2>
-	<LabelStrip3></LabelStrip3>
-	<LabelStrip4></LabelStrip4>
+	<LabelStrip1>RODE</LabelStrip1>
+	<LabelStrip2>VR</LabelStrip2>
+	<LabelStrip3>SoudBoard</LabelStrip3>
+	<LabelStrip4>Turn Table</LabelStrip4>
 	<LabelStrip5></LabelStrip5>
 	<LabelVirtualStrip1>Desktop</LabelVirtualStrip1>
 	<LabelVirtualStrip2>Music</LabelVirtualStrip2>
@@ -31,14 +31,14 @@
 	<K7BUSRoute busa='0' busa2='0' busa3='0'  busa4='0'  busa5='0' busb='0' busb2='0' busb3='0' dblevel='0.00' />
 	<Strip index='1' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='1' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
 	<Strip index='1' sendR='0.00' postR='0' sendD='0.00' postD='0' sendFx1='0.00' postFx1='0' sendFx2='0.00' postFx2='0' />
-	<Strip index='1' paneltype='1' Panel3Dx='0.000' Panel3Dy='0.000' ColorPanelx='0.000' ColorPanely='0.000' ModPanelx='0.000' ModPanely='0.000' audibility_c='0.00' audibility_g='0.00' />
+	<Strip index='1' paneltype='1' Panel3Dx='0.000' Panel3Dy='0.000' ColorPanelx='-0.143' ColorPanely='0.000' ModPanelx='0.000' ModPanely='0.000' audibility_c='0.00' audibility_g='0.00' />
 	<Strip index='2' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='1' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
 	<Strip index='2' sendR='0.00' postR='0' sendD='0.00' postD='0' sendFx1='0.00' postFx1='0' sendFx2='0.00' postFx2='0' />
 	<Strip index='2' paneltype='1' Panel3Dx='0.000' Panel3Dy='0.000' ColorPanelx='0.000' ColorPanely='0.000' ModPanelx='0.000' ModPanely='0.000' audibility_c='0.00' audibility_g='0.00' />
-	<Strip index='3' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='0' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
+	<Strip index='3' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='1' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
 	<Strip index='3' sendR='0.00' postR='0' sendD='0.00' postD='0' sendFx1='0.00' postFx1='0' sendFx2='0.00' postFx2='0' />
 	<Strip index='3' paneltype='1' Panel3Dx='0.000' Panel3Dy='0.000' ColorPanelx='0.000' ColorPanely='0.000' ModPanelx='0.000' ModPanely='0.000' audibility_c='0.00' audibility_g='0.00' />
-	<Strip index='4' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='0' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
+	<Strip index='4' mute='0' solo='0' mono='0' muc='0' busa='1' busa2='0' busa3='0' busa4='0' busa5='0' busb='0' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
 	<Strip index='4' sendR='0.00' postR='0' sendD='0.00' postD='0' sendFx1='0.00' postFx1='0' sendFx2='0.00' postFx2='0' />
 	<Strip index='4' paneltype='1' Panel3Dx='0.000' Panel3Dy='0.000' ColorPanelx='0.000' ColorPanely='0.000' ModPanelx='0.000' ModPanely='0.000' audibility_c='0.00' audibility_g='0.00' />
 	<Strip index='5' mute='0' solo='0' mono='0' muc='0' busa='0' busa2='0' busa3='0' busa4='0' busa5='0' busb='0' busb2='0' busb3='0' karaoke='0' dblevel='0.00' dblimit='12.00' layer1='0.00' layer2='0.00' layer3='0.00' layer4='0.00' layer5='0.00' layer6='0.00' layer7='0.00' layer8='0.00' />
@@ -75,12 +75,12 @@
 <VoiceMeeterDelay>
 	<MultiTapGeneral mute='0' balance_left='-100.000000' balance_right='100.000000' dry='0.000000' wet='1.000000' autofit='0' phase='0' />	<MultiTapDelay predelay='0' timeratio='1.000000' currentBPM='120.000000' feedback='0.000000' feedbacktype='0' />	<MultiTapParam index='1' tapon='1' delay='0.500000' gain='100.000000' filtergain='10.000000' pan='0.000000' />	<MultiTapParam index='2' tapon='0' delay='1.000000' gain='95.000000' filtergain='15.000000' pan='0.000000' />	<MultiTapParam index='3' tapon='0' delay='1.500000' gain='90.000000' filtergain='20.000000' pan='0.000000' />	<MultiTapParam index='4' tapon='0' delay='2.000000' gain='85.000000' filtergain='25.000000' pan='0.000000' />	<MultiTapParam index='5' tapon='0' delay='2.500000' gain='80.000000' filtergain='30.000000' pan='0.000000' />	<MultiTapParam index='6' tapon='0' delay='3.000000' gain='75.000000' filtergain='35.000000' pan='0.000000' />	<MultiTapParam index='7' tapon='0' delay='3.500000' gain='70.000000' filtergain='40.000000' pan='0.000000' />	<MultiTapParam index='8' tapon='0' delay='4.000000' gain='65.000000' filtergain='45.000000' pan='0.000000' /></VoiceMeeterDelay>
 	</FXSection>
-	<LabelBus1></LabelBus1>
-	<LabelBus2></LabelBus2>
-	<LabelBus3></LabelBus3>
+	<LabelBus1>DAC-AMP</LabelBus1>
+	<LabelBus2>Speakers</LabelBus2>
+	<LabelBus3>BTR5</LabelBus3>
 	<LabelBus4></LabelBus4>
 	<LabelBus5></LabelBus5>
-	<LabelVirtualBus1></LabelVirtualBus1>
+	<LabelVirtualBus1>Mic-Out</LabelVirtualBus1>
 	<LabelVirtualBus2></LabelVirtualBus2>
 	<LabelVirtualBus3></LabelVirtualBus3>
 <VoiceMeeterBUSEQ>
